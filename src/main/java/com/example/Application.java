@@ -18,12 +18,12 @@ public class Application {
             protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
                 response.setContentType("text/html");
                 response.getWriter().println("""
-                                     <html>
-                                       <body>
-                                         Hello world!
-                                       </body>
-                                     </html>
-                                     """);
+                                            <html>
+                                              <body>
+                                                Hello world!
+                                              </body>
+                                            </html>
+                                             """);
                 response.getWriter().close();
             }
         };
